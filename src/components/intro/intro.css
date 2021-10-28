@@ -18,3 +18,34 @@
     font-size: 30px;
     font-weight: 300;
 }
+.i-name{
+    font-size: 60px;
+}
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+.i-title-item{
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    25%{transform: translateY(-50px);
+    }
+    50%{transform: translateY(-100px);
+    }
+    75%{transform: translateY(-150px);
+    }
+    100%{transform: translateY(-200px);
+    }
+}
