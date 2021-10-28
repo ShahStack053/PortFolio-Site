@@ -1,4 +1,5 @@
 import "./intro.css"
+import Me from "../../img/Me.jpg"
 const Intro = () => {
     return (
         <div className="i">
@@ -16,10 +17,16 @@ const Intro = () => {
                     <div className="i-title-item">Content creater</div>
                     </div>
                     </div>
-                    
+                        <div className="i-desc">
+                           <h3> I'm the student of software engineering .I am a full stack developer
+                             and now i am working on my fyp
+                              that is based on MERN stack technology</h3>
+                        </div>
                     </div>
                   </div>
-             <div className="i-right">right</div>
+             <div className="i-right">
+                 <img src={Me} alt="" className="i-img" />
+             </div>
         </div>
     )
 }
